@@ -1,0 +1,113 @@
+/*Color del campo cuando se ha puesto un valor que es requerido */
+[required]{
+	border-color: green;
+	box-shadow: 0px 0px 2px green;
+}
+
+/*Colo cuando un campo es requierido y su valor no es válido */
+:invalid{
+	border-color: red;
+	box-shadow: 0px 0px 2px red;
+}
+body{
+	/* Fondo Degradado
+	background: radial-gradient(center,rgba(200,0,0,0.3) 0%, rgba(0,0,200,0.3) 100%);
+	background: -webkit-radial-gradient(center,rgba(200,0,0,0.3) 0%, rgba(0,0,200,0.3) 100%);
+	*/
+
+	/*background: url('../img/fondo.jpg') no-repeat center center fixed;
+	background: url('../img/fondo.jpg') no-repeat;
+	background-size: 100% 100%;*/
+	/*Fondo inicia, fondo secundario*/
+	background-image:url('../img/puntos.png'), url('../img/fondo.jpg');
+	/*Posición de la primra imagen, de la segunda imagen */
+	background-position: center center, center center;	
+	background-repeat: repeat, no-repeat;
+	color: white;
+}
+
+header{
+	background: black;
+	border: 4px solid gray;
+	border-radius: 30px 0px;
+	box-shadow: inset 0px 0px 30px red, 10px 10px 20px gray; /*x, y, alfa*/
+	color: white;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	/*text-shadow: 2px 3px 2px gray;	*/
+	text-shadow: 2px 3px 5px red;
+	width: 400px;	
+}
+/*
+header{
+	background: cyan;
+	border: 2px solid black;
+	border-radius:30px 0px;
+	box-shadow: inset 0px 0px 20px black, 10px 10px 20px gray;
+	color: rgba(0,0,0,1);
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 3px 2px gray;	
+	width: 400px;	
+}
+*/
+
+video{
+	width: 400px;
+	height: 250px;
+}
+/*
+.boton{
+
+}
+*/
+.menu{
+	margin: 10px auto;
+	text-align: center;
+	width: 500px;
+	border: 1px solid red;
+}
+.menu li{
+	display: inline-block;
+	background: rgb(178, 49, 49);
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 5px gray;
+	color: white;
+	cursor: pointer;
+	list-style:  none;
+	padding: 8px 15px;
+
+}
+
+.menu li:hover{
+	background: rgb(51, 102, 50);
+	/*color: black;*/
+}
+
+#contenido, footer
+{
+	padding: 10px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+
+
+
+
+#contenido, footer
+{
+	padding: 10px;
+	margin: 0 auto;
+	width: 400px;
+}
+
+
+/*
+#menu_principal{
+	
+}
+*/

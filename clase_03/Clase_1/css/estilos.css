@@ -1,0 +1,30 @@
+header{
+	background: black;
+	border: 4px solid gray;
+	border-radius: 30px 0px;
+	box-shadow: inset 0px 0px 30px red, 10px 10px 20px gray; /*x, y, alfa*/
+	color: white;
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	/*text-shadow: 2px 3px 2px gray;	*/
+	text-shadow: 2px 3px 5px red;
+	width: 400px;	
+}
+
+.boton{
+
+}
+.menu{
+	margin: 10px auto;
+	text-align: center;
+	width: 400px;
+}
+.menu li{
+	display: inline-block; /* Quita el tabulador */
+	list-style: none; /*Quita las viñetas/decoradores*/
+}
+
+#menu_principal{
+	
+}
