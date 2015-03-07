@@ -1,0 +1,41 @@
+.box
+{
+  background: red;
+  border:1px solid black;
+  border-radius: 5px;
+  color: white;
+  height:30px;
+  margin-top:5px;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  transition: all 2s;
+  transition-delay: 3s;
+  padding-top:10px;
+  width: 100px;
+}
+
+.box:hover
+{
+  background: blue;
+  width:600px;
+}
+
+#box_1{
+   transition-timing-function: linear;
+}
+
+#box_2{
+   transition-timing-function: ease;
+}
+
+#box_3{
+   transition-timing-function: ease-in;
+}
+
+#box_4{
+   transition-timing-function: ease-out;
+}
+
+#box_5{
+   transition-timing-function: ease-in-out;
+}

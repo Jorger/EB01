@@ -1,0 +1,114 @@
+body
+{
+	background-color: rgba(226, 226, 226, 0.53);
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.bandera
+{
+    background: url(../img/banderas.png) no-repeat top left;
+    padding-right: 2px;
+}
+
+.argentina
+{
+  background-position: 0 0;
+  width: 16px;
+  height: 16px;
+}
+
+.colombia
+{
+  background-position: 0 -21px; 
+  width: 16px; 
+  height: 16px;
+} 
+.peru
+{
+  background-position: 0 -42px; 
+  width: 16px; 
+  height: 16px;
+} 
+
+.redes li
+{
+  display: inline-block;
+  line-height: 35px; /*Superior*/
+  list-style: none; /*Decoración */
+  margin: 0 5px;
+}
+
+.redes2 {
+    background-image: url(../img/redes.png);
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+.redes2-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.borderElemento
+{
+  border: 2px solid red;
+  border-radius: 50%;
+}
+/*
+#imgdos
+{
+  width: 16px;
+  height: 16px;
+
+  background-position: -5px -5px;
+}
+*/
+
+
+
+.redes2-gplus {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
+}
+
+.redes2-linkedin {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -31px;
+}
+
+.redes2-msn {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -31px;
+}
+
+.redes2-pinterest {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -5px;
+}
+
+.redes2-skype {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -31px;
+}
+
+.redes2-tumblr {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -57px;
+}
+
+.redes2-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -57px;
+}
+

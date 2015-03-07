@@ -1,0 +1,20 @@
+@font-face{
+	font-family: 'udec';
+	src: url('fonts/AlexBrush-Regular-OTF.otf'); 
+	/*OTF*/
+	/*ttf*/
+	/*eot*/
+	/*svg*/
+	/*woff*/
+
+}
+
+
+body
+{
+	font-family: 'udec', 'Verdana', cursive;
+}
+p
+{
+	font-size: 3em;
+}
