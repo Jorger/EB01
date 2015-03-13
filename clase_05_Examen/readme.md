@@ -14,6 +14,7 @@ Se entrega a los estudiantes un proyecto básico, HTML/CSS, el objetivo del exam
 
 ### Autor
 Jorge Rubaino
+
 [@ostjh]
 License
 ----
