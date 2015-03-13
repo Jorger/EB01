@@ -1,0 +1,50 @@
+.petalos
+{
+	width: 100px;
+	height: 100px;
+	border: 3px dotted black;
+}
+
+#uno
+{
+	left: 0;
+}
+
+#dos
+{
+	left: 100px;
+}
+
+#tres
+{
+	left: 0;
+	top: 100px;
+}
+
+#cuatro
+{
+	left: 100px;
+	top: 100px;
+}
+
+.col
+{
+	float: left;
+	position: absolute;
+}
+
+.col2
+{
+	top: 100px;
+	float: left;
+	position: absolute;
+}
+
+#girar
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+}
