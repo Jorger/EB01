@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: bold 14px Arial, sans-serif;
+}
+
+h1
+{
+	margin-top: 10%;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+.presionado
+{
+	color: red;
+	font-size: 20px;
+}
+
+#calculadora {
+	width: 325px;
+	height: auto;
+	
+	margin: 30px auto;
+	padding: 20px 20px 9px;
+	
+	background: #9dd2ea;
+	background: linear-gradient(#9dd2ea, #8bceec);
+	border-radius: 3px;
+	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.top span.clear {
+	float: left;
+}
+
+
+.top .screen {
+	height: 40px;
+	width: 212px;
+	
+	float: right;
+	
+	padding: 3px 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	
+	
+	font-size: 220%;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.botones
+{
+	margin-top: 3px;
+}
+
+.botones, .top {overflow: hidden;}
+
+
+.botones span, .top span.clear 
+{
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 66px;
+	height: 36px;
+	
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	
+	margin: 0 7px 11px 0;
+	
+	/*color: #888;*/
+	line-height: 36px;
+	text-align: center;
+	
+	user-select: none;
+	
+	transition: all 0.2s ease;
+}
+
+
+.botones span.btnopera {
+	background: #FFF0F5;
+	margin-right: 0;
+}
+
+.botones span.igual {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: #888e5f;
+}
+
+.botones span.clear {
+	background: #ff9fa8;
+	box-shadow: 0px 4px #ff7c87;
+	color: white;
+}
+
+.botones span:hover {
+	background: #9c89f6;
+	box-shadow: 0px 4px #6b54d3;
+	color: white;
+}
+
+.botones span.igual:hover
+{
+	background: #abb850;
+	box-shadow: 0px 4px #717a33;
+	color: #ffffff;
+}
+
+.top span.clear:hover 
+{
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+.botones span:active 
+{
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+
+
+.botones span.igual:active 
+{
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
