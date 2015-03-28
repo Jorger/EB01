@@ -21,9 +21,9 @@ Para el presente ejercicio no es necesario hacer conversiones de [Decimales Peri
 
 En la dirección http://goo.gl/7nf903 se puede apreciar la actividad en funcionamiento la cual realiza:
 
-* Realiza conversiones y operaciones entre fraccionarios y decimales.
+* Conversiones y operaciones entre fraccionarios y decimales.
 * Entrega el resultado en un fraccionario simplificado o en un entero.
-* Realiza conversiones de decimales periódicos puros.
+* Conversiones de decimales periódicos puros.
 * Convierte de decimal a fraccionario y viceversa.
 
 Se deberá entregar la url del ejercicio publicada en [Google Drive], así como el código versionado en [GitHub].
