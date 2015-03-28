@@ -5,6 +5,8 @@ Es este ejercicio el estudiante verá el manejo de [LocalStorage], sobre este se
 * Se podrá almacenar usuarios.
 * Se podrá buscar usuarios.
 
+![Image of LocalStorage](https://dl.dropboxusercontent.com/u/181689/localStorageDemo.png)
+
 El estudiante deberá completar los procesos de:
 
 * Edición.
