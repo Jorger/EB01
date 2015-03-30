@@ -28,6 +28,43 @@ En la dirección http://goo.gl/7nf903 se puede apreciar la actividad en funciona
 
 Se deberá entregar la url del ejercicio publicada en [Google Drive], así como el código versionado en [GitHub].
 
+###Ejemplo simplificación Fracciones.
+
+<pre><code>
+var simplificaFraccionario = function(val)
+{
+	var parteVal = val.split("/");
+	var numerador = Number(parteVal[0]);
+	var denominador = Number(parteVal[1]);
+	var maximo = numerador <= denominador ? numerador : denominador;
+	var cont = 2;
+	do
+	{
+		if(numerador % cont === 0 && denominador % cont === 0)
+		{
+			numerador /= cont; // numerador = numerador / cont;
+			denominador /= cont;
+			maximo = numerador <= denominador ? numerador : denominador;
+		}
+		else
+		{
+			cont++;
+			if(cont > maximo)
+			{
+				break;
+			}
+		}
+	}while(1);
+	var respuesta = numerador + "/" + denominador;
+	if(denominador === 1)
+	{
+		var respuesta = numerador;
+	}
+	return respuesta;
+};
+</code></pre>
+
+
 ### Autor
 Jorge Rubaino [@ostjh]
 License
