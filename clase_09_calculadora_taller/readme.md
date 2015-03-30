@@ -58,7 +58,7 @@ var simplificaFraccionario = function(val)
 	var respuesta = numerador + "/" + denominador;
 	if(denominador === 1)
 	{
-		var respuesta = numerador;
+		respuesta = numerador;
 	}
 	return respuesta;
 };
