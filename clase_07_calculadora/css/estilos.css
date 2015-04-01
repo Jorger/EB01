@@ -11,7 +11,6 @@ h1
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 2em;
-	text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 html {
@@ -21,8 +20,13 @@ html {
 	background-size: cover;
 }
 
-#calculadora 
+.presionado
 {
+	color: red;
+	font-size: 20px;
+}
+
+#calculadora {
 	width: 325px;
 	height: auto;
 	
@@ -39,20 +43,21 @@ html {
 	float: left;
 }
 
+
 .top .screen {
 	height: 40px;
 	width: 212px;
 	
 	float: right;
 	
-	padding: 0 10px;
+	padding: 3px 10px;
 	
 	background: rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
 	
 	
-	font-size: 17px;
+	font-size: 220%;
 	line-height: 40px;
 	color: white;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -60,11 +65,16 @@ html {
 	letter-spacing: 1px;
 }
 
+.botones
+{
+	margin-top: 3px;
+}
 
 .botones, .top {overflow: hidden;}
 
 
-.botones span, .top span.clear {
+.botones span, .top span.clear 
+{
 	float: left;
 	position: relative;
 	top: 0;
@@ -80,7 +90,7 @@ html {
 	
 	margin: 0 7px 11px 0;
 	
-	color: #888;
+	/*color: #888;*/
 	line-height: 36px;
 	text-align: center;
 	
@@ -101,7 +111,7 @@ html {
 	color: #888e5f;
 }
 
-.top span.clear {
+.botones span.clear {
 	background: #ff9fa8;
 	box-shadow: 0px 4px #ff7c87;
 	color: white;
@@ -133,7 +143,10 @@ html {
 	top: 4px;
 }
 
-.botones span.igual:active {
+
+
+.botones span.igual:active 
+{
 	box-shadow: 0px 0px #717a33;
 	top: 4px;
 }

@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Calculadora UDEC</title>
 	<link rel="apple-touch-icon-precomposed" href="img/icono.png"/>
-        <link rel="apple-touch-icon-precomposed" href="img/icono.png"/>
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon-precomposed" href="img/icono.png"/>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script src = "js/prefixfree.min.js"></script>
+	<script src = "js/sweet-alert.js"></script>
 	<script src = "js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sweet-alert.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
@@ -18,10 +20,14 @@
 	</center>
 	<div id="calculadora">
 	<div class="top">
-		<span class="clear" id = 'acciones_1'>C</span>
+		<span class="clear" id = 'acciones_6'>CE</span>
 		<div class="screen" id = "pantalla"></div>
 	</div>
 	<div class="botones">
+		<span class="clear" id = 'acciones_1'>C</span>
+		<span id = 'acciones_4'>(</span>
+		<span id = 'acciones_5'>)</span>
+		<span class="btnopera" id = 'acciones_7'>Decimal</span>
 		<span id = "numero_7">7</span>
 		<span id = "numero_8">8</span>
 		<span id = "numero_9">9</span>
@@ -33,11 +39,11 @@
 		<span id = "numero_1">1</span>
 		<span id = "numero_2">2</span>
 		<span id = "numero_3">3</span>
-		<span class="btnopera" id = "operador_3">*</span>
+		<span class="btnopera" id = "operador_3">x</span>
 		<span id = "numero_0">0</span>
 		<span id = 'acciones_2'>.</span>
 		<span class="igual" id = 'acciones_3'>=</span>
-		<span class="btnopera" id = "operador_4">/</span>
+		<span class="btnopera" id = "operador_4">%</span>
 	</div>
 	<div>
 	</div>
