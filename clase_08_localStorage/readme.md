@@ -81,7 +81,7 @@ La función anterior realizará el ordenamiento de forma ascedente, se deberá a
 
 El valor **"campo"** corresponde al nombre de la propiedad del objeto persona a ordenar (*identificacion*, *primernombre*, *email*)
 
-Si el valor a ordenar está en minúsculas o mayúsculas, el ordenamiento purde variar, por lo que se recomienda estándarizar el proceso sólo a mayúsculas o sólo a minúsculas.
+Si el valor a ordenar está en minúsculas o mayúsculas, el ordenamiento puede variar, por lo que se recomienda estándarizar el proceso sólo a mayúsculas o sólo a minúsculas.
 
 ### Autor
 Jorge Rubaino [@ostjh]
