@@ -30,7 +30,7 @@ Se ha solicitado una nueva funcionalidad (actividad de recuperación), la cual t
 
 ### Función sort de Javascript.
 
-La función sort de Javascript realiza el ordenamiento de elementos de un Array.
+La función [sort] de Javascript realiza el ordenamiento de elementos de un Array.
 
 ```javascript
 var frutas = ['Manzana', 'Pera', 'Curuba'];
@@ -91,3 +91,4 @@ MIT
 
 [LocalStorage]:http://www.w3schools.com/html/html5_webstorage.asp
 [@ostjh]:https://twitter.com/ostjh
+[sort]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
