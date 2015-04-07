@@ -54,7 +54,7 @@ var listadoPersonas = [
       "email":"jorge.rubiano@ymail.com",
       "fechanacimiento":"1987-06-02"
    }
-]
+];
 ```
 
 Para acceder al elemento a realizar el ordenamiento se deberá indicar el campo en la función sort.
