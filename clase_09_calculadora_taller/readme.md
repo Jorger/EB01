@@ -30,7 +30,7 @@ Se deberá entregar la url del ejercicio publicada en [Google Drive], así como 
 
 ###Ejemplo simplificación Fracciones.
 
-<pre><code>
+```javascript
 var simplificaFraccionario = function(val)
 {
 	var parteVal = val.split("/");
@@ -62,7 +62,52 @@ var simplificaFraccionario = function(val)
 	}
 	return respuesta;
 };
-</code></pre>
+```
+
+### Función saber si un número es periódico
+
+```javascript
+var numPeriodico = function(val)
+	{
+		val = (val || "").toString();
+		var PATRON_DECIMALES = /(?:[^\.]+\.\d*)(\d{2,})+(?:\1)$/, 
+		   	PATRON_NUM_REPETIDOS = /^(\d+)(?:\1)$/,
+		   	patron = PATRON_DECIMALES.exec(val);
+		if(!patron)
+		{
+			val = val.replace( /\d$/, '' );
+			patron = PATRON_DECIMALES.exec(val);
+		}
+		if(patron && 1 < patron.length)
+		{
+			patron[1] = PATRON_NUM_REPETIDOS.test(patron[1]) ? PATRON_NUM_REPETIDOS.exec(patron[1])[1] : patron[1];
+		}
+		return patron;
+   	};
+```
+
+### Ejemplo
+
+La función devolverá  **null**, en el caso de que el número no sea periódico, si lo es, devolverá un *array* el cual en la posicón cero (0) el número comparado y en la posición uno (1) el número periódico que se repite.
+
+```javascript
+numPeriodico(1.3)
+//null
+numPeriodico(1.33333)
+//["1.33333", "3"]
+numPeriodico(1.5777777)
+//["1.5777777", "7"]
+numPeriodico(1.34777777)
+//["1.34777777", "7"]
+numPeriodico(1.3475757575)
+//["1.3475757575", "75"]
+```
+
+### Consideraciones.
+
+La forma de realizar la conversión de decimales a fraccionarios, varia dependiendo si el número es periódico o no, en el caso de ser periódico se deberá tener en cuenta la cantidad de cifras que se repiten.
+
+Este es un tip para el ejercicio a realizar de conversión de números periódicos a fraccionarios, ejercicio a entregar por parte de los estudiantes.
 
 
 ### Autor
