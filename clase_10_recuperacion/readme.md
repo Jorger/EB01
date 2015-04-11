@@ -11,7 +11,7 @@ La actividad deberá entregar pistas al usuario que le indique si esta cerca o l
 * Frio.
 * Templado.
 * Caliente.
- 
+* 
 
 
 ![Adivina Número](https://dl.dropboxusercontent.com/u/181689/adivinaNumero.gif) 
@@ -21,7 +21,7 @@ La actividad deberá entregar pistas al usuario que le indique si esta cerca o l
 
 Deberá tener un número de intentos máximos para adivinar el número, se propone que pueden ser 20.
 
-Para obtner un número aleatorio en el rango específicado anteriomente se hace uso de la función ```Math.random``` para obtener números aleatorios y de la función ```Math.floor``` para redondear
+Para obtener un número aleatorio en el rango específicado anteriomente se hace uso de la función ```Math.random``` para realizar redondeo de los mismo se hace uso d ela función ```Math.floor```
 
 ##Ejemplo obtener número aleatorio entre 50 y 200
 
