@@ -11,7 +11,7 @@ La actividad deberá entregar pistas al usuario que le indique si esta cerca o l
 * Frio.
 * Templado.
 * Caliente.
-* 
+ 
 
 
 ![Adivina Número](https://dl.dropboxusercontent.com/u/181689/adivinaNumero.gif) 
