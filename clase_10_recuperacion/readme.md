@@ -21,7 +21,7 @@ La actividad deberá entregar pistas al usuario que le indique si esta cerca o l
 
 Deberá tener un número de intentos máximos para adivinar el número, se propone que pueden ser 20.
 
-Para obtener un número aleatorio en el rango específicado anteriomente se hace uso de la función ```Math.random``` para realizar redondeo de los mismo se hace uso d ela función ```Math.floor```
+Para obtener un número aleatorio en el rango específicado anteriomente se hace uso de la función ```Math.random``` para realizar redondeo de los mismo se hace uso de la función ```Math.floor```
 
 ##Ejemplo obtener número aleatorio entre 50 y 200
 
@@ -33,7 +33,7 @@ Se puede ver la aplicación en funcionamiento en el siguiente enlace: http://goo
 
 ##Entrega
 
-La aplicación deberá ser entregada a través de [Google Drive] y el código entregado a través de [GitHub]
+La aplicación deberá ser entregada a través de [Google Drive] y el código a través de [GitHub]
 
 ### Autor
 Jorge Rubaino [@ostjh]
