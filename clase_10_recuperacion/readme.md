@@ -15,7 +15,8 @@ La actividad deberá entregar pistas al usuario que le indique si esta cerca o l
 Deberá tener un número de intentos máximos para adivinar el número, se propone que pueden ser 20.
 
 Para obtner un número aleatorio en el rango específicado anteriomente se hace uso de la función ```Math.random``` para obtener números aleatorios y de la función ```Math.floor``` para redondear
-##Ejemplo obtner número aleatorio entre 50 y 200
+
+##Ejemplo obtener número aleatorio entre 50 y 200
 
 ```javascript
 var rangoMaximo = Math.floor((Math.random() * 200) + 50);
