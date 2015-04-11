@@ -18,7 +18,7 @@ Para obtner un número aleatorio en el rango específicado anteriomente se hace 
 ##Ejemplo obtner número aleatorio entre 50 y 200
 
 ```javascript
-rangoMaximo = Math.floor((Math.random() * 200) + 50);
+var rangoMaximo = Math.floor((Math.random() * 200) + 50);
 ```
 
 Se puede ver la aplicación en funcionamiento en el siguiente enlace: http://goo.gl/e2kHsH
