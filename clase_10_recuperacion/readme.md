@@ -1,16 +1,23 @@
-# Clase 10 - Actividad de Recuperación: Adivina en número
+# Clase 10 - Actividad de Recuperación: Adivina el número
 
-La actividad consiste en adivinar un número dado un tango dado, el cual parte desde uno hasta un valor [aleatorio].
+La actividad consiste en adivinar un número en un rango dado, el cual parte desde uno (1) hasta un valor [aleatorio].
 * Valor Mínimo a adivinar (1)
 * Valor máximo a adivinar entre 50 y 200.
 
-![Adivina Número](https://dl.dropboxusercontent.com/u/181689/adivinaNumero.gif) 
+##Pistas
 
 La actividad deberá entregar pistas al usuario que le indique si esta cerca o lejos del número:
 
 * Frio.
 * Templado.
 * Caliente.
+* 
+
+
+![Adivina Número](https://dl.dropboxusercontent.com/u/181689/adivinaNumero.gif) 
+
+
+##Intentos
 
 Deberá tener un número de intentos máximos para adivinar el número, se propone que pueden ser 20.
 
@@ -23,6 +30,8 @@ var rangoMaximo = Math.floor((Math.random() * 200) + 50);
 ```
 
 Se puede ver la aplicación en funcionamiento en el siguiente enlace: http://goo.gl/e2kHsH
+
+##Entrega
 
 La aplicación deberá ser entregada a través de [Google Drive] y el código entregado a través de [GitHub]
 
