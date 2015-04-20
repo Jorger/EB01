@@ -1,16 +1,9 @@
-# Callback y modulos en Node.js
+# Introducción Nóde.js
 
-Se muestra el manejo de los denominados callbacks en [Node.js] y por consiguiente en Javascript, así como el Manejo de los modulos.
+Se muestra ejemplos básicos de [Node.js], haciendo uso del famoso ```Hola Mundo```
 
-* Nativos.
-* Propios del usuario.
-* De terceros (NPM)
+También se realiza ejemplos de lectura de archivos, con el fin de mostrar la diferencia entre programación asíncrona y programación secuencial.
 
-### Instalación ejemplos modulos.
-
-Para la ejecución de los ejemplos de modulos se deberá tener instalado Node.js, en la carpeta donde se haya ubicado los archivos se deberá ejecutar a través de la terminal, el comando ```node nombre_archivo```
-
-Para la ejecución del ejemplo de uso de paquetes provenientes de [npm], se deberá ejecutar el comando ```npm install``` el cual leerá el archivo **package.json**
 
 ### Autor
 Jorge Rubaino [@ostjh]
@@ -19,4 +12,3 @@ License
 MIT
 [@ostjh]:https://twitter.com/ostjh
 [Node.js]:https://nodejs.org/
-[npm]:https://www.npmjs.com/
