@@ -1,16 +1,26 @@
-# Callback y modulos en Node.js
+# Ejemplo conexión Mysql
 
-Se muestra el manejo de los denominados callbacks en [Node.js] y por consiguiente en Javascript, así como el Manejo de los modulos.
-
-* Nativos.
-* Propios del usuario.
-* De terceros (NPM)
+Conexión a [Mysql] (Base de datos relacional) a través de [Node.js] muestra de información a través de [Express]
 
 ### Instalación ejemplos modulos.
 
-Para la ejecución de los ejemplos de modulos se deberá tener instalado Node.js, en la carpeta donde se haya ubicado los archivos se deberá ejecutar a través de la terminal, el comando ```node nombre_archivo```
+Para la instación se deberá ejecutar el comando:
 
-Para la ejecución del ejemplo de uso de paquetes provenientes de [npm], se deberá ejecutar el comando ```npm install``` el cual leerá el archivo **package.json**
+```
+npm install
+```
+
+El cual tomará el archivo **package.json** descargando las dependencias necesarias, las cuales son:
+
+* express
+* consolidate
+* swig
+* mongodb
+* 
+
+### Base de datos de ejemplo
+
+Se entrega la base de datos de ejemplo ```aplicacion.sql```  llamada aplicación la cual contiene una tabla llamada ```usuarios```
 
 ### Autor
 Jorge Rubaino [@ostjh]
@@ -19,4 +29,4 @@ License
 MIT
 [@ostjh]:https://twitter.com/ostjh
 [Node.js]:https://nodejs.org/
-[npm]:https://www.npmjs.com/
+[Mysql]:https://www.mysql.com/
