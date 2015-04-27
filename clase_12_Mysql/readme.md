@@ -15,8 +15,8 @@ El cual tomará el archivo **package.json** descargando las dependencias necesar
 * express
 * consolidate
 * swig
-* mongodb
-* 
+* mysql
+
 
 ### Base de datos de ejemplo
 
