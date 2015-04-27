@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{titulo}}</title>
+</head>
+<body>
+	<center>
+		<h1>{{titulo}}</h1>
+	</center>
+	<hr>
+	<ol>
+		{% for usuario in usuarios %}
+			<li>
+				{{usuario.nombre}} {{usuario.apellido}}
+			</li>
+		{% endfor %}
+	</ol>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Hola, {{nombre}}!</h1>
+<h2>Bienvenido a {{ubica}}</h2>
+<ul>
+{% for p in array %}
+	<li>{{p}}</li>
+{% endfor %}
+</ul>
+<h1>Personas</h1>
+<ol>
+{% for obj in objeto %}
+	{% if obj.activo %}
+		<li>
+			{{obj.nombre}} {{obj.apellido}} - 
+			<a href = "mailto:{{obj.email}}">{{obj.email}}</a>
+		</li>
+	{% endif %}	
+{% endfor %}
+<img src = "{{imagen}}">
+</ol>
+</body>
+</html>
+
+
+

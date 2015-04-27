@@ -1,0 +1,24 @@
+{
+  "name": "mongoDB",
+  "version": "1.0.0",
+  "description": "Conexión a MongoDB",
+  "main": "ejemplo01.js",
+  "dependencies": {
+    "consolidate": "^0.12.1",
+    "swig": "^1.4.2",
+    "express": "^4.12.3",
+    "mongodb": "^2.0.27",
+    "swing": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mongodb",
+    "express",
+    "NoSQL"
+  ],
+  "author": "Jorge Rubiano",
+  "license": "ISC"
+}

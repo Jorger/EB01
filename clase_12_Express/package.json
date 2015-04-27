@@ -1,0 +1,23 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Primeros Pasos Express",
+  "main": "Express01.js",
+  "dependencies": {
+    "express": "^4.12.3",
+    "consolidate": "^0.12.1",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "server", 
+    "consolidate", 
+    "swig"
+  ],
+  "author": "Jorge Rubiano",
+  "license": "ISC"
+}
