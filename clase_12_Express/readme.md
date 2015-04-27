@@ -14,7 +14,7 @@ El cual tomará el archivo **package.json** descargando las dependencias necesar
 
 * express
 * consolidate
-* swig"
+* swig
 
 
 ### Autor
