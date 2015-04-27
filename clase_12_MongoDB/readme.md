@@ -22,7 +22,7 @@ El cual tomará el archivo **package.json** descargando las dependencias necesar
 El archivo ```poblarDB.js``` realiza el proceso de poblar una base de datos **usuarios** con nombres, apellido y edades de forma aleatoria, para la ejecución del mismo es necesario ejecutarlo a través de la shell de mongo:
 
 ```
-./mongo ruta_archivo/poblarDB.js
+./mongod ruta_archivo/poblarDB.js
 ```
 
 
