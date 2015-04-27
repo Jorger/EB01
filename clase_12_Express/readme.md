@@ -1,16 +1,21 @@
-# Callback y modulos en Node.js
+# Primeros Pasos Express
 
-Se muestra el manejo de los denominados callbacks en [Node.js] y por consiguiente en Javascript, así como el Manejo de los modulos.
-
-* Nativos.
-* Propios del usuario.
-* De terceros (NPM)
+Ejemplos del manejo de [Express], servir páginas a través de get, validación de páginas no existentes (404), envio de información a plantillas haciendo uso de ```consolidate```y ```swig```
 
 ### Instalación ejemplos modulos.
 
-Para la ejecución de los ejemplos de modulos se deberá tener instalado Node.js, en la carpeta donde se haya ubicado los archivos se deberá ejecutar a través de la terminal, el comando ```node nombre_archivo```
+Para la instación se deberá ejecutar el comando:
 
-Para la ejecución del ejemplo de uso de paquetes provenientes de [npm], se deberá ejecutar el comando ```npm install``` el cual leerá el archivo **package.json**
+```
+npm install
+```
+
+El cual tomará el archivo **package.json** descargando las dependencias necesarias, las cuales son:
+
+* express
+* consolidate
+* swig"
+
 
 ### Autor
 Jorge Rubaino [@ostjh]
@@ -18,5 +23,4 @@ License
 ----
 MIT
 [@ostjh]:https://twitter.com/ostjh
-[Node.js]:https://nodejs.org/
-[npm]:https://www.npmjs.com/
+[Express]:http://expressjs.com/
