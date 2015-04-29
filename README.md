@@ -1,3 +1,3 @@
 # EB01
 
-Repositorio Electiva Profesional I
+Repositorio Electiva Básica I
