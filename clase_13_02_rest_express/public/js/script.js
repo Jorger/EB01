@@ -266,14 +266,4 @@ $(function()
 		}
 	});
 });
-
-/*
-{
-	"id" : 0,
-	"identifi": "3453", 
-	"nombre" : "asd",
-	"apellido":"asd",
-	"email":"a@s.com",
-	"fecha":"2006-06-06"
-}
 */
