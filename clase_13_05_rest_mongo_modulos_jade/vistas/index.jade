@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+	head
+		meta(name='google', value='notranslate')
+		meta(name='viewport', content='initial-scale=1, maximum-scale=1, user-scalable=no')
+		title!= titulo
+		link(href='css/tabla.css', rel='stylesheet')
+		link(href='css/form.css', rel='stylesheet')
+		script(src='js/jquery1.9.1.js')
+		script(src='js/script.js')
+	body
+		video#video
+		canvas#canvas
+		head
+			center
+				span.titulo!= titulo
+		br
+		<hr>
+		div#cajon1
+			center
+				img#fperfil(src = "fotos/sinFoto.png")
+				br
+				a#efoto(href = "javascript:;") Eliminar foto
+			input#identifica(type='number', placeholder='Cédula', autocomplete='off')
+			input#nombre(type='text', placeholder='Nombre', autocomplete='off')
+			input#apellido(type='text', placeholder='Apellido', autocomplete='off')
+			input#email(type='email', placeholder='Email', autocomplete='off')
+			input#fechanace(type='date', placeholder='Fecha Nacimiento')
+			input#guarda(type='button', value='Guardar')
+		div#cajon2
+			div#imprime

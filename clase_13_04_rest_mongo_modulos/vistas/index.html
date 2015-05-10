@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="google" value="notranslate"/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>{{titulo}}</title>
+  <link rel="stylesheet" type="text/css" href="css/tabla.css">
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>//-->
+  <script src = "js/jquery1.9.1.js"></script>
+  <script src = "js/script.js"></script>
+</head>
+<body>
+<video id="video" style = "display:none;"></video>
+<canvas id="canvas" style = "display:none;"></canvas>
+<br>
+<head>
+  <center>
+    <span class = "titulo">{{titulo}}</span>
+  </center>
+</head>
+<hr>
+<br>
+<div id = "cajon1">
+      <center><img src="fotos/sinFoto.png" id = 'fperfil'>
+        <br>
+        <a href = 'javascript:;' id = 'efoto'>Eliminar foto</a>
+      </center>
+      <input type = "number" id = "identifica" placeholder = "Cédula" autocomplete="off">
+      <input type = "text" id = "nombre" placeholder = "Nombre" autocomplete="off">
+      <input type = "text" id = "apellido" placeholder = "Apellido" autocomplete="off">
+      <input type = "email" id = "email" placeholder = "Email" autocomplete="off">
+      <input type = "date" id = "fechanace" placeholder = "Fecha Nacimiento">
+      <input type="button" value = "Guardar" id = "guarda"/>
+</div>
+<div id = "cajon2">
+    <div id = "imprime"></div>
+</div>
+</body>
+</html>
