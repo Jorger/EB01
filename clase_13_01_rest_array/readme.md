@@ -79,7 +79,6 @@ License
 ----
 MIT
 [@ostjh]:https://twitter.com/ostjh
-[Mysql]:https://www.mysql.com/
 [método]:http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods
 [Postman]:https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop
 [Cloud9]:https://c9.io/
