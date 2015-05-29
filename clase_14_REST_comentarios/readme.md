@@ -34,7 +34,7 @@ La url del servicio es:
 http://localhost:8081/updateLike/4
 ```
 
-En la url de ejemplo el ```4```representa el id del comentario.
+En la url de ejemplo el **4** representa el id del comentario.
 
 
 ### Traer todos los comentarios.
