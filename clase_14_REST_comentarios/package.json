@@ -1,0 +1,25 @@
+{
+  "name": "Express_REST_Mongo_Modulos",
+  "version": "1.0.0",
+  "description": "Creación servicios REST, MongoDB, Express y uso de módulos, toma y almacenamiento de fotos",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "mongodb": "^2.0.31",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "MongoDB",
+    "Módulos",
+    "Express",
+    "CRUD",
+    "Fotos"
+  ],
+  "author": "Jorge Rubiano",
+  "license": "ISC"
+}
