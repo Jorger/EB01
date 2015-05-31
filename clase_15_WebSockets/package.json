@@ -1,0 +1,23 @@
+{
+  "name": "Chat_UDEC",
+  "version": "1.0.0",
+  "description": "Chat UDEC",
+  "main": "app.js",
+  "dependencies": {
+    "consolidate": "^0.12.1",
+    "express": "^3.0.6",
+    "jade": "^1.9.2",
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "express",
+    "socket.io"
+  ],
+  "author": "Jorge Rubiano",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+doctype html
+html(lang="es")
+    head
+        title!= titulo
+        link(rel='stylesheet', type='text/css', href='css/estilos.css')
+        script(src='/socket.io/socket.io.js')
+        script(src='js/jquery1.9.1.js')
+        script(src='js/script.js')
+    body
+        #contenedor
+            h1!= titulo
+            #mensajes
+            .nickname
+                input#nombre(name='nombre', type='text', autocomplete='off', placeholder='Escribe tu nombre')
+            textarea#mensaje(placeholder='Escribe tu mensaje')
+            input#enviar(type='submit', value='Enviar')
